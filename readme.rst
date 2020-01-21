@@ -34,6 +34,12 @@ PLEASE NOTE:
 
 2. Go to the application/config/database.php file to configure the database. It is cuurrently configured for what the settings are on my machine, where the default user is root, and password is cielotest.
 
+3. You must Modify /application/config/config.php to set your base_url to whatever the base_url is on your LAMP stack. 
+	In my case, it is: 'http://localhost:80/sieres-test-cielo-master'.
+	
+	You can find this setting in /application/config/config.php on line 26: 
+	$config['base_url'] = 'YOUR BASE URL HERE';
+
 
 **************************
 Changelog and New Features
@@ -59,7 +65,8 @@ Installation
 2. Turn on the Lamp Development Server.
 3. Insert SQL Dump into your Preferred Database. (Found in Application root folder as /cielo_test.sql).
 4. Modify application/config/database.php with your Database credentials.
-5. Access it through your browser.
+5. Modify the application/config/config.php file on Line 26 with your base_url for the LAMP stack. (Refer to Release information for more details)
+6. Access it through your browser.
 
 Note: Please make sure the machine you are running this on is connected to the internet!
 
