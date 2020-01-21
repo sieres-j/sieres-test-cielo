@@ -57,8 +57,9 @@ Installation
 
 1. Add this folder to your Lamp Stack's Document Root.
 2. Turn on the Lamp Development Server.
-3. Modify application/config/database.php with your Database credentials.
-4. Access it through your browser.
+3. Insert SQL Dump into your Preferred Database. (Found in Application root folder as /cielo_test.sql).
+4. Modify application/config/database.php with your Database credentials.
+5. Access it through your browser.
 
 Note: Please make sure the machine you are running this on is connected to the internet!
 
