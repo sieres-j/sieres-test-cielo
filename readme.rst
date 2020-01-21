@@ -1,29 +1,45 @@
 ###################
-What is CodeIgniter
+What is This?
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+This application is a basic CRUD application written in PHP with the Codeigniter Framework.
+
+The application allows the user to:
+
+1. Create a new Account for a User with the following basic information:
+	a. Name
+	b. Email
+	c. Date of Birth
+	d. Favorite Color
+
+2. View a list of all users
+3. Edit existing users
+4. Soft-Delete Existing users
+
+While simple, it is a demonstration of my abilities to create a CRUD application in Codeigniter, while applying MVC
+concepts.
+
+Included with this is also:
+
+1. An SQL dump of a MySQL Database
+2. All Views and Controllers
 
 *******************
 Release Information
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+PLEASE NOTE:
+
+1. Host this on a machine with internet connectivity, so the CDN assets can load. (These were included for speed of development, would not be used in production this way).
+
+2. Go to the application/config/database.php file to configure the database. It is cuurrently configured for what the settings are on my machine, where the default user is root, and password is cielotest.
+
 
 **************************
 Changelog and New Features
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+This is the initial deployment.
 
 *******************
 Server Requirements
@@ -39,32 +55,18 @@ issues, as well as missing features.
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+1. Add this folder to your Lamp Stack's Document Root.
+2. Turn on the Lamp Development Server.
+3. Modify application/config/database.php with your Database credentials.
+4. Access it through your browser.
 
-*******
-License
-*******
+Note: Please make sure the machine you are running this on is connected to the internet!
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
 
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
 ***************
 Acknowledgement
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+I'd like to thank you all for taking the time to interview me, and to review this code together.
+
